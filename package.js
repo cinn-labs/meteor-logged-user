@@ -1,8 +1,8 @@
 Package.describe({
   name: 'cinn:logged-user',
-  version: '0.0.1',
+  version: '0.0.2',
   summary: 'Logged user helper for meteor apps',
-  git: 'https://github.com/cinn-labs',
+  git: 'https://github.com/cinn-labs/meteor-logged-user',
   documentation: 'README.md'
 });
 

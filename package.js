@@ -1,6 +1,6 @@
 Package.describe({
   name: 'cinn:logged-user',
-  version: '0.0.2',
+  version: '0.0.3',
   summary: 'Logged user helper for meteor apps',
   git: 'https://github.com/cinn-labs/meteor-logged-user',
   documentation: 'README.md'
@@ -8,7 +8,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   const both = ['client', 'server'];
-  api.versionsFrom('1.3.2.4');
+  api.versionsFrom('1.3.4');
 
   api.export('Tenancy');
 
